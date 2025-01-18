@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bbc {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: white;
+    margin: 5px 10px 10px 10px;
+}
+
+.navBBC {
+    display: flex;
+    background-color: black;
+}
+
+.navBBC img {
+    height: 30px;
+    width: 100px;
+    padding: 0px 10px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.signup {
+    padding: 10px 150px 10px 10px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.contentBBC {
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    list-style-type: none;
+    border-left: 1px solid white;
+
+
+}
+
+.optionBBC {
+    color: white;
+    padding: 13px 21px;
+    border-left: 1px solid white;
+    background-color: black;
+
+}
+
+.More {
+    color: white;
+    padding:4px 27px;
+    background-color: black;
+    margin-top: 15px;
+    border-left: 1px solid white;
+    margin-bottom: 15px;
+}
+
+.more {
+    margin-left: 100px;
+}
+
+.input-icons {
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    border-left: 1px solid white;
+    background-color: black;
+    width: 100%;
+}
+
+.input-icons i {
+    margin-left: 1px;
+    position: absolute;
+}
+
+.iconBBC {
+    margin: 10px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+/* CNN Design */
+.cnn {
+    background-color: black;
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 5px 10px 10px 10px;
+}
+
+.navCNN {
+    display: flex;
+}
+
+.navCNN img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.content1 {
+    display: flex;
+    list-style-type: none;
+    margin: 30px 400px 30px 15px;
+}
+
+.option {
+    color: white;
+    padding: 0px 15px 0px 15px;
+}
+
+.content2 {
+    display: flex;
+    margin: 30px;
+    color: white;
+
+}
+
+.content2 i {
+    display: flex;
+    padding: 0px 10px 0px 10px;
+}
+
+.user {
+    font-size: 10px;
+}
+
+/*Linkedin*/
+.linkedin {
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    display: flex;
+    background-color: white;
+    color: rgb(180, 180, 180);
+}
+
+.logolinkedin {
+    margin: 15px;
+}
+
+.SearchLinkedin {
+    height: 5px;
+    width: 10px;
+}
+
+.contentLinkedin2 {
+    position: absolute;
+    top: 5px;
+    right: 100px;
+    border-right: 1px solid black;
+}
+
+.contentLinkedin2 i {
+    margin: 15px;
+    font-size: 20px;
+
+}
+
+.contentLinkedin2 img {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+.contentLinkedin3 {
+    padding: 0px 10px 0px 10px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+.contentLinkedin3 img {
+    margin: 0px 10px;
+}
+
+.contentLinkedin3 i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+/* Instagram */
+.instagram {
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    display: flex;
+    background-color: white;
+}
+
+.contentInstagram2 {
+    position: absolute;
+    top: 5px;
+    right: 100px;
+}
+
+.contentInstagram2 i {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.instagram img {
+    height: 60px;
+    width: 90px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+
+.instaInput {
+    position: absolute;
+    top: 10px;
+    left: 40%;
+
+}
+
+/* Youtube */
+.navbar {
+    margin: 10px 10px 10px 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 24px;
+    margin-right: 8px;
+}
+
+.navbar .logo span {
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+}
+
+.navbar .search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: none;
+}
+
+.navbar .search-bar input {
+    width: 60%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+.navbar .search-bar button {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 1px;
+    
+}
+
+.navbar .search-bar button img {
+    height: 16px;
+    padding: 10px 15px;
+    background-color: #888;
+}
+
+.navbar .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar .icons img{
+    height: 24px;
+    cursor: pointer;
+}
+.navbar .icons i {
+    height: 24px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.navbar .icons .profile {
+    height: 32px;
+    border-radius: 50%;
+}
+/* facebook */
+
+.Facebook {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 6px #ccc;
+    margin: 10px 10px 10px 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+}
+
+.nav__left img {
+    height: 40px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.nav__search {
+    display: flex;
+    align-items: center;
+    background-color: #f1f2f6;
+    padding: 15px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.nav__mid {
+    display: flex;
+    align-items: center;
+}
+
+.iconFacebook {
+    padding: 10px 2.8vw;
+    border-radius: 5px;
+    color: #66676c;
+}
+
+.iconFacebook i {
+    font-size: 25px;
+}
+
+.iconFacebook:hover {
+    background-color: #f1f2f6;
+    transition: ease-in-out 0.1s;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+}
+.nav__right i{
+    margin-right: 150px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.avatar:hover {
+    background: #f1f2f6;
+    transition: ease-in-out 0.1s;
+}
+
+.avatar__img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons i {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #f1f2f6;
+}
+
+.buttons i:hover {
+    background: #D8D9DD;
+    transition: ease-in-out 0.1s;
+}
+
+/* Google */
+.navbarGoogle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+   
+  }
+  
+  .navbar-left,
+  .navbar-center
+  {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logogoogle {
+    height: 24px;
+    margin-left: 20px;
+   
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 5px;
+    font-size: 10px;
+    color: #888;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 12px 35px 12px 30px; /* Extra padding for the icons */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  .dropdown-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .icongoogle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+  
+  .profile-icon img {
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    cursor: pointer;
+  }
+  /* Bootstrap */
+  
+.navBootstrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6f42c1; /* Purple background */
+    padding: 10px 20px;
+    color: white;
+    margin: 15px;
+  }
+  
+  .navBootstrap-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-logo {
+    background-color: #6f42c1;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border:2px solid white;
+    border-radius: 30%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    color: white;
+    text-decoration: none;
+    font-size: 2px;
+    font-weight: bold;
+  }
+  
+  .navBootstrap-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navBootstrap-links li {
+    margin: 0 15px;
+  }
+  
+  .navBootstrap-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navBootstrap-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .navBootstrap-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .version {
+    font-size: 16px;
+    margin-right: 40px;
+  }
+  
+  .iconBootstraps {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .iconBootstraps i {
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .download-btn {
+    background-color: transparent;
+    color: rgb(221, 186, 10);;
+    border: 1px solid rgb(221, 186, 10);
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .download-btn:hover {
+    background-color: rgb(221, 186, 10);
+    color: #6f42c1;
+    transition: 0.3s ease;
+  }
+
+/* Medium */
+
+.navMedium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+    height: 56px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.navMedium-left {
+    display: flex;
+    align-items: center;
+}
+
+.logoMedium {
+    height: 28px;
+    margin-right: 8px;
+}
+.navMedium-right {
+    display: flex;
+    align-items: center;
+}
+
+.iconMedium {
+    font-size: 24px;
+    color: #121212;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.iconMedium:last-child {
+    margin-right: 16px; /* Reduced margin for notifications iconMedium */
+}
+
+.profile-circle {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: #fff;
+    border: 2px solid green;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 8px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Pranav Kavade</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="https://mail.google.com/">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Pranav 👋</h2>
+        <p style="text-align: justify;">MCA student passionate about software development, particularly in web technologies and backend systems. Skilled in Python, JavaScript, and Django, I have experience building dynamic, user-centric web applications. I'm currently improving my knowledge of Data Structures and Algorithms to strengthen my technical skills.
+          Curious and proactive, I love learning new technologies and implementing best practices to enhance my work. I am seeking opportunities in a challenging environment where I can apply my skills, grow with industry professionals, and contribute to impactful software projects. Let's connect!</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/userprofile.png" alt="User Image">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text" style="text-align: justify;">
+        I'm passionate about web technologies and backend systems, skilled in Python, JavaScript, and Django. Experienced in building user-centric web applications and currently enhancing knowledge of Data Structures and Algorithms. Seeking opportunities to contribute to impactful software projects and grow with industry professionals.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/Python.png" alt="react logo">
+          <span>Python</span>
+        </div>
+        <div class="cell">
+          <img src="images/Django.png" alt="react logo">
+          <span>Django</span>
+        </div>
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+        <div class="cell">
+          <img src="images/mysql.webp" alt="react logo">
+          <span>Mysql</span>
+        </div>
+        
+  
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/userprofile.png">
+          <p>Pranav Kavade</p>
+          <p>Fresher, MCA Student. </p>
+        </div>
+
+        <div class="text" style="text-align: justify;">
+          "I've had the pleasure of working with Pranav Kavade, and their dedication to learning and implementing the best practices in software development is truly commendable. Their expertise in Python, JavaScript, and Django, combined with a passion for creating user-centric web applications, makes them a valuable asset to any team. Always curious and proactive, they consistently strive for excellence and growth, ensuring that their contributions leave a positive and lasting impact."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text" style="text-align: justify;">
+          "Let's connect and collaborate! Feel free to reach out for exciting opportunities or discussions about software development."
+            Have a project or idea in mind? I’d love to hear about it!"
+            Contact me for opportunities, collaborations, or any queries—I’m just a message away!"
+            Looking forward to connecting with like-minded professionals and industry experts. Let’s grow together!"
+            Feel free to drop a message—let's build something impactful together!
+          " 
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .headingBirthaday{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: xx-large;
+            text-align: center;
+            text-shadow: 4px 4px 4px red, 2px 2px 7px blue;
+        }
+        .cardContainer{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card1{
+            border: 1px solid black;
+            width: 18rem;
+        }
+        .card1:hover{
+            box-shadow: 4px 4px 6px 9px gray;
+
+        }
+        .card1 img{
+            width:100%
+        }
+        .cardBody{
+            /* padding: 20px; */
+            margin: 10px;
+        }
+        .mar1{
+            margin-bottom: 10px;
+        }
+        .headerContainer{
+            position:relative;
+            height: 600px;
+        }
+        .headerImage{
+            width: 100%;
+            height:100%
+        }
+        .textContent{
+            color: white;
+            position: absolute;
+            top:40%;
+            left: 30%;
+        }
+
+        @media screen and (max-width:760){
+            .cardContainer{
+
+            }
+
+        }
+        @media screen and (max-width:450px){
+            .cardContainer{
+                flex-direction: column;
+             align-items: center;   
+            }
+        }
+
+        /* The animation code */
+@keyframes EatMe {
+  0%   {color: red;text-shadow: 2px 2px 4px black;}
+  25%  {color: yellow;transform: translateX(100px);}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+/* The element to apply the animation to */
+div.boxAnimation {
+  width: 100%;
+  height: 100px;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 30px;
+  animation-name: EatMe;
+  animation-duration: 10s;
+}
+    </style>
+</head>
+<body>
+    <header><h1 class="headingBirthaday">BirthDay Page</h1></header>
+<div class="boxAnimation">
+    EAT ME
+</div>
+<header class="headerContainer">
+    <div class="headerImage">
+        <img src="./assets/headerImage.jpg" alt="img" style="width:100%;height: 600px;">
+    </div>
+    <div class="textContent">
+        <h2>Delicious |  Birthday Cakes | Cupcakes | Eggless Cakes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, esse!</p>
+        <button>View More </button>
+        <button>Birthday Cakes</button>
+    </div>
+</header>
+
+    <div class="cardContainer">
+        <div class="card1 mar1">
+            <img src="./assets/headerImage.jpg" alt="image" />
+           <div class="cardBody">
+            <h3>Product Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Price: ₹234</p>
+            <button>Add to Cart</button>
+           </div>
+        </div>
+        <div class="card1 mar1">
+            <img src="./assets/headerImage.jpg" alt="image" />
+           <div class="cardBody">
+            <h3>Product Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Price: ₹234</p>
+            <button>Add to Cart</button>
+           </div>
+        </div>
+        <div class="card1 mar1">
+            <img src="./assets/headerImage.jpg" alt="image" />
+           <div class="cardBody">
+            <h3>Product Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Price: ₹234</p>
+            <button>Add to Cart</button>
+           </div>
+        </div>
+        <div class="card1 mar1">
+            <img src="./assets/headerImage.jpg" alt="image" />
+           <div class="cardBody">
+            <h3>Product Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Price: ₹234</p>
+            <button>Add to Cart</button>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
