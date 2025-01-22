@@ -1,4 +1,303 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: rgb(254, 247, 247);
+}
+
+.featureCard {
+    background-color: rgb(254, 247, 247);
+    border: none;
+}
+
+.featureCard i {
+    color: rgb(76, 161, 214);
+    background-color: rgb(179, 226, 255);
+    height: 80px;
+    width: 80px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
+.features h2 {
+    margin-top: 250px;
+}
+
+.partners h2 {
+    margin-top: 20px;
+}
+
+.topbooksCard {
+    border: none;
+}
+
+.topbooksCard img {
+    border-radius: 0.5rem;
+    height: 300px;
+    width: 100%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.location {
+    color: gray;
+}
+
+.star-rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.cardExplore {
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.cardExplore img {
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+
+}
+
+.explore {
+    position: relative;
+}
+
+.rowExplore {
+    position: absolute;
+    top: -20px;
+    left: 800px;
+}
+
+.feature-news {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.news-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-card .card-body {
+    padding: 1.5rem;
+}
+
+.news-card .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.news-card .card-text {
+    color: #6c757d;
+    margin: 0.5rem 0 1rem;
+}
+
+.news-card .see-more {
+    color: darkcyan;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.news-card .see-more:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.navigation button {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    color: #000;
+}
+
+.navigation button:hover {
+    color: darkcyan;
+}
+
+.feature-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials-section {
+    background: url('assests/background2.png') no-repeat center center/cover;
+    padding: 3rem 1rem;
+    color: #fff;
+    margin: 0px 100px;
+}
+
+.testimonials-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.testimonial-card h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.testimonial-card .role {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-card .stars {
+    color: #ffc107;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-card p {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.subscription-container {
+    background-color: rgb(254, 247, 247);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.subscription-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+.subscription-content {
+    padding: 20px 30px;
+}
+
+.subscription-content h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 25px;
+    padding: 10px 20px;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+.btn-subscribe {
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: darkcyan;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-subscribe:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 7px 14px;
+    display: inline-block;
+}
+
+.payment-icons img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-size: 14px;
 }
